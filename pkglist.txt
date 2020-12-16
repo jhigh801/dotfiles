@@ -90,7 +90,6 @@ gimp
 git
 glances
 glfw-x11
-gmrun
 gnome-mahjongg
 gnome-themes-extra
 gnuchess
@@ -128,10 +127,6 @@ hdparm
 highlight
 hplip
 htop
-i3-gaps
-i3blocks
-i3lock
-i3status
 imagemagick
 inkscape
 intel-ucode
@@ -156,9 +151,6 @@ libdvdcss
 libmediawiki
 libreoffice-fresh
 libtool
-lightdm
-lightdm-gtk-greeter
-lightdm-gtk-greeter-settings
 links
 linux-firmware
 linux-lts
@@ -167,7 +159,6 @@ logrotate
 lrzip
 lsb-release
 lsscsi
-lxappearance-obconf
 lynx
 lzop
 m4
@@ -197,12 +188,8 @@ nitrogen
 nm-connection-editor
 noto-fonts
 ntfs-3g
-obconf
-oblogout-blurlock
-obmenu-generator
 ocaml
 ohcount-git
-openbox
 opendesktop-fonts
 openresolv
 openvpn
@@ -315,7 +302,6 @@ texlive-bin
 texlive-latexextra
 texlive-pictures
 thunderbird
-tint2
 tk
 transcode
 transmission-cli
