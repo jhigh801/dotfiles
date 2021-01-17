@@ -1,0 +1,101 @@
+Xft.dpi: 96
+Xft.antialias: true
+Xft.hinting: true
+Xft.rgba: rgb
+Xft.autohint: true
+Xft.hintstyle: hintfull
+Xft.lcdfilter: lcdfilter
+
+XTerm*renderFont: true
+XTerm*faceName: xft:Mononoki Nerd Font, \
+                xft:JoyPixels:size=12, \
+                xft:Monospace:style=Medium:size=12
+XTerm*faceSize: 11
+XTerm*utf8: 2
+XTerm*locale: true
+
+XTerm.vt100.translations: #override \n\
+  Ctrl <Key> j: smaller-vt-font() \n\
+  Ctrl <Key> k: larger-vt-font()
+
+
+! Every shell is a login shell by default (for inclusion of all necessary environment variables)
+XTerm*loginshell: true
+
+! I like a LOT of scrollback...
+XTerm*savelines: 16384
+xterm*scrollBar: true
+xterm*rightScrollBar: true
+
+! double-click to select whole URLs :D
+XTerm*charClass: 33:48,36-47:48,58-59:48,61:48,63-64:48,95:48,126:48
+
+URxvt*imLocale: en_US.UTF-8
+URxvt*termName: rxvt-unicode-256color
+URxvt*buffered: false
+URxvt.intensityStyles: false
+URxvt.font: xft:Mononoki Nerd Font:size=12, \
+            xft:JoyPixels:size=12, \
+            xft:Monospace:style=Medium:size=12
+URxvt.saveLines: 2000
+URxvt.scrollBar: false
+URxvt.cursorColor: white
+
+!! Extensions
+URxvt.perl-ext-common: default,matcher,resize-font,url-select,keyboard-select,clipboard
+URxvt.colorUL: #4682B4
+!! url-select
+URxvt.keysym.M-u: perl:url-select:select_next
+URxvt.url-select.launcher: chromium
+URxvt.url-select.underline: true
+!! keyboard-select:
+URxvt.keysym.M-Escape: perl:keyboard-select:activate
+!! resize-font
+URxvt.keysym.C-k:   font-size:increase
+URxvt.keysym.C-j:   font-size:decrease
+!! Matcher
+URxvt.url-launcher:	chromium
+URxvt.matcher.button: 1
+!!clipboard
+URxvt.keysym.M-c: perl:clipboard:copy
+URxvt.keysym.M-v: perl:clipboard:paste
+URxvt*depth: 32
+
+! Google color Scheme
+! special
+*.foreground:   #c5c8c6
+*.background:   #1d1f21
+*.cursorColor:  #c5c8c6
+
+! black
+*.color0:       #1d1f21
+*.color8:       #969896
+
+! red
+*.color1:       #cc342b
+*.color9:       #cc342b
+
+! green
+*.color2:       #198844
+*.color10:      #198844
+
+! yellow
+*.color3:       #fba922
+*.color11:      #fba922
+
+! blue
+*.color4:       #3971ed
+*.color12:      #3971ed
+
+! magenta
+*.color5:       #a36ac7
+*.color13:      #a36ac7
+
+! cyan
+*.color6:       #3971ed
+*.color14:      #3971ed
+
+! white
+*.color7:       #c5c8c6
+*.color15:      #ffffff
+
