@@ -38,13 +38,13 @@ export MANPAGER="nvim +Man!"
 # -------- Aliases {{{
 
 # Changing "ls" to "eza"
-alias ls='eza -al --color-always --group-directories-first' # My preferred listing
-alias la='eza -a --color-always --group-directories-first' # all files and directories
-alias ll='eza -l --color-always --group-directories-first' # long format
-alias lt='eza -aT --color-always --group-directories-first' # tree listing
-alias l.='eza -al --color-always --group-directories-first ../' # ls on the PARENT directory
-alias l..='eza -al --color-always --group-directories-first ../../' # ls on the direcotry 2 levels up
-alias l...='eza -al --color-always --group-directories-first ../../../' # ls on the directory 3 levels up
+#alias ls='eza -al --color-always --group-directories-first' # My preferred listing
+#alias la='eza -a --color-always --group-directories-first' # all files and directories
+#alias ll='eza -l --color-always --group-directories-first' # long format
+#alias lt='eza -aT --color-always --group-directories-first' # tree listing
+#alias l.='eza -al --color-always --group-directories-first ../' # ls on the PARENT directory
+#alias l..='eza -al --color-always --group-directories-first ../../' # ls on the direcotry 2 levels up
+#alias l...='eza -al --color-always --group-directories-first ../../../' # ls on the directory 3 levels up
 
 # Pacman and Yay
 alias pacsyu='sudo pacman -Syu' # update only standard packages
@@ -78,6 +78,7 @@ alias psmem='ps auxf | sort -nr -k 4'
 
 # Merge Xresources
 alias merge='xrdb -merge ~/.Xresources'
+alias load='xrdb -load ~/.Xresources'
 
 # git
 alias addup='git add -u'
